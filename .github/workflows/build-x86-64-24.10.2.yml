@@ -34,11 +34,11 @@ on:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "100000080733"
-        required: false
+        description: "zhanghao"
+        required: true
       pppoe_password:
-        description: "650819"
-        required: false
+        description: "pwsd"
+        required: true
 
 jobs:
   build:
